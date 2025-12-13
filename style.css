@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+.nav-list{
+    background: #1F2833;
+    box-shadow: 0px 0px 4px var(--clr-gray200);
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 5px white;
+    margin-bottom: .1rem;
+    padding-left: 1rem;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2.3rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #00D4FF;
+}
+
+.nav-item a:hover{
+    color: #b8680e;
+}
+
+.logo{
+    width: 150%;
+    height: auto;
+    max-width: 65px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: inline-block;
+}
+
+.hero-section .img-hero{
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+h1{
+    font-family: "Rubik Distressed", system-ui;
+}
+
+.hero-section .text-hero{
+    position: absolute;
+    padding-bottom: 8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    z-index: 1;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.hero-section .ti-sub{
+    margin-bottom: 49px;
+}
+
+.action-button{
+    background:#FF4500;
+    width: 8rem;
+    height: 4rem;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px white ;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-align: center;
+}
+
+.hero-section .action-button:hover{
+    background: #16aecc;
+    box-shadow: 0px 0px 10px #FF4500;
+}
