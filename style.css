@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC&family=Rubik+Distressed&family=Smythe&display=swap');
 
 .nav-list{
     background: #1F2833;
@@ -44,7 +44,8 @@
 }
 
 h1{
-    font-family: "Rubik Distressed", system-ui;
+    font-family: "Bona Nova SC", serif;
+    text-shadow: 0px 0px 6px white;
 }
 
 .hero-section .text-hero{
@@ -56,7 +57,9 @@ h1{
     color: whitesmoke;
     z-index: 1;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    text-shadow: 0px 0px 30px white;
 }
 
 .hero-section .ti-sub{
